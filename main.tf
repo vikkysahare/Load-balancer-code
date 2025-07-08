@@ -19,5 +19,5 @@ resource "azurerm_resource_group" "rgb" {
 
 resource "azurerm_resource_group" "rgb1" {
     name = "rg-test66"
-    location = "East Europe"
+    location = "Central India"
 }

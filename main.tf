@@ -17,7 +17,7 @@ resource "azurerm_resource_group" "rgb" {
     location = "West Europe"
 }
 
-resource "azurerm_resource_group" "rgb1" {
-    name = "rg-test66"
+resource "azurerm_resource_group" "rgb11" {
+    name = "rg-test666"
     location = "East Europe"
 }

@@ -9,22 +9,22 @@ terraform {
 
 provider "azurerm" {
     features {}
-    subscription_id = "f662a2ed-bf0f-4adb-b83c-cd3132aee86a"
+    subscription_id = "efdf2ccf-79fa-4d76-96ad-be4a91bcb4bd"
 }
 
-resource "azurerm_resource_group" "rgb" {
-    name = "rg-test6"
+resource "azurerm_resource_group" "rgb0" {
+    name = "rg-test0"
     location = "West Europe"
 }
 
 
-resource "azurerm_resource_group" "rgb11" {
-    name = "rg-test666"
+resource "azurerm_resource_group" "rgb1" {
+    name = "rg-test1"
     location = "East Europe"
 }
 
-resource "azurerm_resource_group" "rgb1" {
-    name = "rg-test66"
+resource "azurerm_resource_group" "rgb2" {
+    name = "rg-test2"
     location = "Central India"
 }
 
